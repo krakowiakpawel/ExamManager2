@@ -1,0 +1,16 @@
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/filtres/EncodingFilter.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/converter/ComMemberConverter.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/entity/Sailor.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/entity/ComMember.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/service/DBService.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/repo/ComMemberRepo.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/repo/SailorRepo.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/app/AppInitializer.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/controller/SailorController.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/entity/Exam.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/controller/ComMemberController.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/converter/ExamConverter.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/app/AppConfig.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/controller/HomeController.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/controller/ExamController.java
+/home/pkrakowiak/workspaceNew/ExamManager/src/main/java/pl/pkrakowiak/repo/ExamRepo.java

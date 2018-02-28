@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h1>404 page</h1>
+
+
+up vote
+87
+down vote
+	
+
+I use spring 3.2.3 and here is how I solved similar problem.
+1) Added RedirectAttributes redirectAttributes to the method parameter list in controller 1.
+
+public String controlMapping1(
+        @ModelAttribute("mapping1Form") final Object mapping1FormObject,
+        final BindingResult mapping1BindingResult,
+        final Model model, 
+        final RedirectAttributes redirectAttributes)
+
+2) Inside the method added code to add flash attribute to redirectAttributes redirectAttributes.addFlashAttribute("mapping1Form", mapping1FormObject);
+
+3) Then, in the second contoller use method parameter annotated with @ModelAttribute to access redirect Attributes
+
+@ModelAttribute("mapping1Form") final Object mapping1FormObject
+
+Here is the sample code from Controller 1:
+
+@RequestMapping(value = { "/mapping1" }, method = RequestMethod.POST)
+public String controlMapping1(
+        @ModelAttribute("mapping1Form") final Object mapping1FormObject,
+        final BindingResult mapping1BindingResult,
+        final Model model, 
+        final RedirectAttributes redirectAttributes) {
+
+    redirectAttributes.addFlashAttribute("mapping1Form", mapping1FormObject);
+
+    return "redirect:mapping2";
+}   
+
+From Contoller 2:
+
+
+</body>
+</html>
